@@ -1,5 +1,5 @@
-'note this snippet needs to be in "ThisWorkbook" if you want it to auto
-Private Sub Workbook_Open()
+'Can be called or assigned to a macro
+public Sub OpenNoCode()
     Dim wbWithCode As String
     wbWithCode = InputBox("Path of workbook to open with code to suppress.", "Which Workbook?", CurDir & "\...xlsm")
     If wbWithCode <> vbNullString Then
