@@ -1,0 +1,5 @@
+To test modules, classes, and forms...
+Open the test.xlsm file.
+Open the vb editor (Alt + F11)
+Drag all vb files into the project explorer (.bas,.cls,.frm, left panel)
+Either click the button on the first tab, or manually run the TestSuit sub routine.
